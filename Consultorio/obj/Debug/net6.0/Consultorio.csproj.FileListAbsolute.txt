@@ -1,0 +1,62 @@
+D:\Consultorio\Consultorio\bin\Debug\net6.0\appsettings.Development.json
+D:\Consultorio\Consultorio\bin\Debug\net6.0\appsettings.json
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.staticwebassets.runtime.json
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.exe
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.deps.json
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.runtimeconfig.json
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.dll
+D:\Consultorio\Consultorio\bin\Debug\net6.0\Consultorio.pdb
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfoInputs.cache
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfo.cs
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.csproj.CoreCompileInputs.cache
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cache
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.RazorAssemblyInfo.cache
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.RazorAssemblyInfo.cs
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.Consultorio.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.build.Consultorio.props
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Consultorio.props
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Consultorio.props
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets.build.json
+D:\Consultorio\Consultorio\obj\Debug\net6.0\staticwebassets.development.json
+D:\Consultorio\Consultorio\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Consultorio\Consultorio\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Consultorio\Consultorio\obj\Debug\net6.0\scopedcss\bundle\Consultorio.styles.css
+D:\Consultorio\Consultorio\obj\Debug\net6.0\scopedcss\projectbundle\Consultorio.bundle.scp.css
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.dll
+D:\Consultorio\Consultorio\obj\Debug\net6.0\refint\Consultorio.dll
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.pdb
+D:\Consultorio\Consultorio\obj\Debug\net6.0\Consultorio.genruntimeconfig.cache
+D:\Consultorio\Consultorio\obj\Debug\net6.0\ref\Consultorio.dll
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\appsettings.Development.json
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\appsettings.json
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.staticwebassets.runtime.json
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.exe
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.deps.json
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.runtimeconfig.json
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.dll
+D:\Consultorio - Copia\Consultorio\bin\Debug\net6.0\Consultorio.pdb
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfoInputs.cache
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.AssemblyInfo.cs
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.csproj.CoreCompileInputs.cache
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.MvcApplicationPartsAssemblyInfo.cache
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.RazorAssemblyInfo.cache
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.RazorAssemblyInfo.cs
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.Consultorio.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.build.Consultorio.props
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Consultorio.props
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Consultorio.props
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets.build.json
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\staticwebassets.development.json
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\scopedcss\bundle\Consultorio.styles.css
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\scopedcss\projectbundle\Consultorio.bundle.scp.css
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.dll
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\refint\Consultorio.dll
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.pdb
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\Consultorio.genruntimeconfig.cache
+D:\Consultorio - Copia\Consultorio\obj\Debug\net6.0\ref\Consultorio.dll

@@ -1,0 +1,62 @@
+﻿@page "/usuarios"
+@inject Consultorio.Data.IUsuariosService UsuariosService;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+
+<div class="container">
+
+    <h2 class="text-center mt-4 mb-4">Bem-Vindo Doutor</h2>
+    <br />
+    <a href="usuario/0" class="oi oi-plus">  </a>
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"> </th>
+                    <th scope="col">ID</th>
+                    <th scope="col">NOME</th>
+                    <th scope="col">CPF</th>
+                    <th scope="col">Celular</th>
+                    <th scope="col">Endereco</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">User</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var usuario in usuarios)
+                {
+                    <tr>
+                        <td><a href="Ficha/@usuario.Id" class="oi oi-folder"> </a></td>
+                        <td scope="row">@usuario.Id</td>
+                        <td>@usuario.Nome</td>
+                        <td>@usuario.CPF</td>
+                        <td>@usuario.CEL</td>
+                        <td>@usuario.Endereco</td>
+                        <td>@usuario.Tipo</td>
+                        <td>@usuario.User</td>
+                        <td>@usuario.Password</td>
+                        <td><a class="oi oi-pencil" href="usuario/@usuario.Id"></a></td>
+                        <td><button @onclick="@(e=> OnDelete(usuario.Id))" class="oi oi-trash"></button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@code {
+    private List<Consultorio.Data.Usuarios> usuarios;
+    protected override void OnInitialized()
+    {
+        usuarios = UsuariosService.GetUsuarios();
+    }
+
+    private void OnDelete(string id)
+    {
+        UsuariosService.DeleteUsuario(id);
+    }
+}

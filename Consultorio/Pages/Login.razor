@@ -1,0 +1,65 @@
+﻿@page "/login"
+@inject Consultorio.Data.IUsuariosService UsuariosService;
+@inject NavigationManager Navigation;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<EditForm Model="usuario" OnSubmit="@SubmitForm">
+    
+    <div class="container">
+        <div class="form-group">
+            <label class="lead">User</label>
+            <InputText class="form-control" id="User" @bind-Value="usuario.User"></InputText>
+        </div>
+        <div class="form-group">
+            <label class="lead">Password</label>
+            <InputText class="form-control" id="Password" @bind-Value="usuario.Password"></InputText>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary"> Logar</button>
+        </div>
+    </div>
+
+</EditForm>
+
+@code {
+
+    private Consultorio.Data.Usuarios usuario { get; set; }
+    private List<Consultorio.Data.Usuarios> listagem;
+
+    protected override void OnInitialized()
+    {
+        usuario = new Consultorio.Data.Usuarios();
+        listagem = UsuariosService.GetUsuarios();
+    }   
+
+    private void SubmitForm()
+    {
+        if (!string.IsNullOrEmpty(usuario.Password) && !string.IsNullOrEmpty(usuario.User))
+        {
+            var user = listagem.FirstOrDefault(u => u.User == usuario.User && u.Password == usuario.Password);
+            if (user != null)
+            {
+                switch (user.Tipo)
+                {
+                    case "Medico":
+                        Navigation.NavigateTo("/usuarios");
+                        break;
+                    case "Paciente":
+                        Navigation.NavigateTo($"/paciente/{user.Id}");
+                break;
+                }
+            }
+            else
+            {
+                // Código para lidar com autenticação inválida
+            }
+        }
+        else
+        {
+            // Código para lidar com campos vazios
+        }
+        
+    }
+}
+
+  
